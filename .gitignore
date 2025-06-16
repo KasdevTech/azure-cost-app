@@ -1,0 +1,8 @@
+echo "
+myagent/
+*.log
+node_modules/
+.vscode/
+.cache/
+.env
+" >> .gitignore

@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+gunicorn
+python-dotenv
+azure-identity
+azure-mgmt-costmanagement
+azure-mgmt-resource
+jose
+requests
+tenacity

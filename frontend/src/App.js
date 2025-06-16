@@ -37,7 +37,7 @@ function App() {
       const accounts = msalInstance.getAllAccounts();
       if (accounts && accounts.length > 0) {
         setAccount(accounts[0]);
-        acquireToken(accounts[0]);
+         
       }
     });
     // eslint-disable-next-line

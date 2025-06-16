@@ -18,7 +18,7 @@ app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=[os.getenv("FRONTEND_URL", "https://blue-sea-045e3760f.6.azurestaticapps.net")],
     allow_methods=["*"],
     allow_headers=["*"],
 )

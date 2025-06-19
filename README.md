@@ -29,3 +29,5 @@ React app runs on port 3000 and FastAPI on 8000.
 
 Make sure CORS is configured properly.
 # azure-cost-app
+# Finsight
+# Finsight
